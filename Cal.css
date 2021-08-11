@@ -1,0 +1,94 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Orbitron', arial; 
+}
+body{
+  background-color:#EEEEEE;
+  background-size:cover;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  Flex-direction:column;
+}
+form{
+  background-color:#223322;
+  position:relative;
+  width:80%;
+  top:10px;
+  padding:20px;
+  border:1px transparent;
+  border-radius:25px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+input[type="button"]{
+  width:90%;
+  height:400%;
+  color:white;
+  background-color:#000000;
+  border:none;
+  outline:none;
+  font-size:30px;
+  border-radius:5px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+input[type="text"]{
+  width:90%;
+  height:50px;
+  font-size:25px;
+  background-color:#A9A75B;
+  border:1px solid transparent;
+  position:relative;
+  margin-bottom:10px;
+  border-radius:10px;
+  color:black;
+  padding-left:10px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  
+  
+}
+P{
+    color:black;
+    position:absolute;
+    bottom:0px;
+    Font-size:10px;
+}
+#equals
+{
+  width:90%;
+  height:400%;
+  color:white;
+  background-color:#87CEEB;
+  border:none;
+  outline:none;
+  font-size:30px;
+  border-radius:5px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#clear 
+{
+  width:90%;
+  height:400%;
+  color:white;
+  background-color:#FFA500;
+  border:none;
+  outline:none;
+  font-size:30px;
+  border-radius:5px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+#cut
+{
+  width:90%;
+  height:400%;
+  color:white;
+  background-color:#FFA500;
+  border:none;
+  outline:none;
+  font-size:30px;
+  border-radius:5px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
